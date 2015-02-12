@@ -1,5 +1,38 @@
-html, body, h1, h2, h3, p, ol, ul, li, a {
-    padding: 0;
-    border: 0;
-    margin: 0;
+body {
+    background-color: #4D2BB5;
+}
+header {
+    background-color: #9F1717;
+    height: 120px;
+}
+header ul {
+    margin-top: 0;
+    list-style-type: none;
+    paddding: 0;
+}
+header ul li {
+    display: inline;
+    padding: 10px;
+}
+nav a {
+text-decoration: none;
+}
+nav a:hover {color: white;}
+.centrado {
+    width: 980px;
+    margin: 0 auto;
+}
+.fondonaranja {
+    background-color: #FD3C2B;
+}
+#titulo {
+    text-align: center;
+    color: white;
+}
+body div {
+padding-top: 20px;
+}
+body p {
+    padding-left: 25px ;
+    padding-left: 25px ;
 }
