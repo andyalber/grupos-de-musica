@@ -1,6 +1,8 @@
 /*Comentado*/
 body {
-    background-color: #4D2BB5;
+    background-image: url(../images/fondo.png);
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
 }
 header {
     background-color: #9F1717;
@@ -37,15 +39,21 @@ body div {
 }
 body p {
     padding-left: 2.5em ;
-    padding-left: 2.5em ;
+    padding-right: 2.5em ;
 }
 h1 {
     color: #4D2BB5;
     text-align: center;
+    font-size: 3em;
 }
 h2, h3, h4 {
     color: #4D2BB5;
+    font-size: 1.5em;
 }
+h1, h2, h3, h4{
+    font-family: 'Lobster';
+}
+
 .avatar {
     width: 5em;
     height: auto;
@@ -58,6 +66,7 @@ h2, h3, h4 {
 }
 .listasinpuntos {
     list-style: none;
+    padding-left: 0%;
 }
 .logo{
     width: 49.5em;
@@ -66,4 +75,53 @@ h2, h3, h4 {
 }
 .lugar{
     color: green;
+}
+.contenido{
+    width: 80%;
+    padding: 1.250em;
+}
+.cabecera{
+    width: 100%;
+}
+.texto{
+    padding: 1.250em;
+}
+
+@media screen and (max-width: 800px){
+    .logo{
+    width: 95%;
+    height: auto;
+    }
+    header{
+    width: 100%;
+    height: auto;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .avatar{
+        width: 3.125em;
+        height: auto;
+        display: block;
+        clear: both;
+        text-align: center;
+        margin: auto;
+        margin-top: 0.313em;
+        margin-bottom: 0.313em;
+    }
+    .artista{
+        display: block;
+        clear: both;
+        text-align: center;
+        padding-top: 0.313em;
+        padding-bottom: 0.313em;
+    }
+    
+    .descripcion{
+        display: block;
+        clear: both;
+        text-align: center;
+        padding-top: 0.313em;
+        padding-bottom: 0.313em;
+    }
 }
