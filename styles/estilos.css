@@ -11,7 +11,11 @@ header {
 header ul {
     margin-top: 0;
     list-style-type: none;
-    paddding: 0;
+    padding: 0.625em;
+    background-color: #FFD2E8;
+}
+header ul li a:hover {
+    background-color: #4D2BB5;
 }
 header ul li {
     display: inline;
@@ -82,11 +86,38 @@ h1, h2, h3, h4{
 }
 .cabecera{
     width: 100%;
+    height: auto;
+    padding-top: 0.938em;
+    padding-bottom: 0.938em;
 }
 .texto{
     padding: 1.250em;
 }
+.videogrande{
+    display:block;
+    }
+    .videopequeno{
+    display: none;
+    }
 
+.pie_pagina {
+    background-color: dimgray;
+    width: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 35%;
+}
+.social{
+    margin:0.5em;
+}
+@media screen and (max-width: 1100px){
+    .videogrande{
+    display:none;
+    }
+    .videopequeno{
+    display: block;
+    }
+}
 @media screen and (max-width: 800px){
     .logo{
     width: 95%;
@@ -96,6 +127,7 @@ h1, h2, h3, h4{
     width: 100%;
     height: auto;
     }
+    
 }
 
 @media screen and (max-width: 650px){
@@ -124,4 +156,22 @@ h1, h2, h3, h4{
         padding-top: 0.313em;
         padding-bottom: 0.313em;
     }
+    div .pie_pagina {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    
+}
+}
+
+@media screen and (max-width: 380px){
+header ul li {
+    display: block;
+    clear: both;
+    padding: 1em;
+}
+    
+
 }
